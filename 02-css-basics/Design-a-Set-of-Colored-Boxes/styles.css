@@ -1,0 +1,39 @@
+body{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+.color-box{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin:35px 30px ;
+    border-radius: 15px;
+}
+
+.color1{
+    background-color: #0f0;
+    box-shadow: 0 0 25px #0f0;
+
+}
+.color2{
+    background-color: rgb(255, 0, 255);
+    box-shadow: 5px 5px 25px rgb(150, 0, 200);
+
+}
+.color3{
+    background-color:orange ;
+    box-shadow: 5px 5px 25px rgb(100, 100, 0) ;
+
+}
+.color4{
+    background-color: hsl(187, 87%, 43%);
+    box-shadow: 10px 5px 19px rgba(100, 100, 200,0.6) ;
+
+}
+.color5{
+    background-color:red ;
+    box-shadow: 10px 10px 25px rgb(250, 50, 50);
+
+}
