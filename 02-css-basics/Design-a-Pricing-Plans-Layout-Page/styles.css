@@ -1,0 +1,80 @@
+
+.pricing-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px  20px;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.basic-plan{
+    order: 0;
+
+}
+.pro-plan{
+    order: 1;
+    background-color: rgb(218, 224, 241);
+}
+.premium-plan{
+    order: 2;
+}
+.pricing-card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 2px solid black;
+    flex: 0 0 219px;
+    height: 330px;
+    width: 350px;
+}
+
+hr {
+    width: 85%;
+    height: 2px;
+    background-color: gray;
+    border: none;
+}
+h2,p{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.items{
+    list-style: none;
+}
+li{
+    padding: 3px;
+}
+.one::before {
+    content: "✓";
+    color: green;
+    margin-right: 2px;
+}
+.two::before{
+    content:"✗ " ;
+    color: red;
+    margin-right: 2px;
+}
+.pricing-card:hover{
+    transform:scale(1.08) ;
+    transition: transform 0.8s ease;
+}
+h1{
+    text-align: center;
+}
+
+button{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    width: 90%;
+    height: 50%;
+    border: none;
+    margin:10px auto;
+}
+button:hover{
+    background-color: green;
+    transition: background-color 0.2s ease;
+
+}
