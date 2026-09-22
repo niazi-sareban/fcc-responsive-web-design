@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#main {
+  background-color: rgb(241, 235, 235);
+  border: 1px solid whitesmoke;
+  margin: 3px auto;
+}
+#img-div {
+  border: 1px solid whitesmoke;
+  background-color: white;
+  margin: 5px auto;
+  padding: 20px;
+}
+#title {
+  text-align: center;
+}
+#tribute-info {
+  text-align: center;
+}
+span {
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  line-height: 1.5;
+}
+cite {
+  display: block;
+  text-indent: 20px;
+}
+.wikipedia {
+  text-align: center;
+}
