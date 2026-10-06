@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(196, 194, 194, 0.61);
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#main-doc header{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#main-doc{
+    position: relative;
+    width: 650px;
+    height: 100%;
+    top: 0;
+    left: 26%;
+    margin:25px ;
+    padding: 10px;
+    line-height: 27px;
+    
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 25px;
+
+}
+#navbar header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:black ;
+}
+
+
+@media screen and (min-width:660px) {
+    #main-doc{
+        width: 75%;
+    }
+}
+code{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 5px auto;
+}
