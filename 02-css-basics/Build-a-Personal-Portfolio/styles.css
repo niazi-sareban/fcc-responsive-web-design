@@ -1,0 +1,12 @@
+@media(max-width){
+    .project-tile{
+        color: red;
+    }
+}
+#welcome-section{
+    height: 100vh;
+}
+#navbar{
+    position: fixed;
+    top: 0px;
+}

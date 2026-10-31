@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(238, 235, 235);
+}
+#header img{
+    width: 30vw;
+}
+#header{
+    position:fixed ;
+    top: 0;
+}
+#nav-bar{
+    position: absolute;
+    left:600px;
+    top: 25px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    gap:15px;
+    white-space: nowrap;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.welcome{
+    text-align: center;
+    padding: 20px;
+}
+#email{
+    width: 30vw;
+    height: 2.5vh;
+    border: 1px solid black;
+    padding: 5px;
+}
+#submit{
+   width: 15vw;
+   height: 2.7vh;
+   background-color: orange; 
+   border: 1px solid transparent;
+   font-weight: bold;
+}
+@media(max-width:768px){
+    #how-its-works{
+        background-color: aquamarine;
+
+    }
+}
